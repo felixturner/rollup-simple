@@ -3,8 +3,7 @@
 	"version": "1.0.0",
 	"description": "Simple Rollup ES6 JS build with babel, uglify, local server, live reload and sourcemaps",
 	"author": "Felix Turner <felix@airtightinteractive.com> (@felixturner)",
-	"license": "ISC",
-	"main": "index.js",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/felixturner/rollup-simple.git"
