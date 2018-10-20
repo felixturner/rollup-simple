@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","sources":["../src/js/main.js","../src/js/foo.js"],"sourcesContent":["import { foo } from './foo.js';\nvar span = document.querySelector('#foo');\nspan.textContent = `hello ${foo()}`; //ES6 style\n","export function foo() {\n\treturn 'bar';\n}\n"],"names":["document","querySelector","textContent"],"mappings":"yBACWA,SAASC,cAAc,QAC7BC,4BCDG"}
