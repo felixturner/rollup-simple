@@ -3,6 +3,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import { uglify } from 'rollup-plugin-uglify';
 import livereload from 'rollup-plugin-livereload';
 import babel from 'rollup-plugin-babel';
+import copy from 'rollup-plugin-copy';
 
 // `npm run build` -> `production` is true
 // `npm run dev` -> `production` is false
@@ -22,6 +23,11 @@ export default {
 		!production && livereload(),
 		babel({
 			exclude: 'node_modules/**',
+		}),
+		copy({
+			targets: {
+				'src/static': 'dist',
+			},
 		}),
 	],
 };
