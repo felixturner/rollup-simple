@@ -12,16 +12,13 @@ cd rollup-simple
 npm install
 ```
 
-`npm run build` builds `src/main.js` to `dist/main.js`, along with a sourcemap file for debugging.
+`npm run build` builds `src/main.js` to `dist/main.js`, along with a sourcemap file for debugging. Copies static files from `src/static` to `dist` folder
 
 `npm run dev` launches a local server with live reload as your source files change. Navigate to [localhost:5000](http://localhost:5000).
-
-Public files go in `dist` folder.
 
 ## TODO
 
 - Add eslint
-- Copy files to dist from a static folder
 
 ## Inspired by
 
